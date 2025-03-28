@@ -1,11 +1,33 @@
-import React from 'react'
+import React from "react";
 
 const SignUp = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <form action="">
+      <div>
+        <h1>Create your PopX account</h1>
+        <input type="text" />
+        <label htmlFor=""></label>
+        <input type="text" />
+        <label htmlFor=""></label>
+        <input type="text" />
+        <label htmlFor=""></label>
+        <input type="text" />
+        <label htmlFor=""></label>
+        <input type="text" />
+        <label htmlFor=""></label>
+        <p>Are you an Agency?*</p>
+        <label>
+          <input type="radio" name="response" value="yes" checked /> Yes
+        </label>
 
-export default SignUp
+        <label>
+          <input type="radio" name="response" value="no" /> No
+        </label>
+
+        <button>Create Account</button>
+      </div>
+    </form>
+  );
+};
+
+export default SignUp;

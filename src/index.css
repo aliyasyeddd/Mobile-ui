@@ -1,7 +1,21 @@
-
-* {
+html, body {
+  width: 100%;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  }
+  
+  #root {
+  padding-top: 0px;
+  padding-left: 0px;
+  width: 375px;
+  height: 812px;
+  opacity: 1;
+  background: #F7F8F9 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  }
+  
